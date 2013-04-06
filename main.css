@@ -1,0 +1,451 @@
+﻿/* dotted solid dashed */
+
+body
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #505050; /*background: #fbfbfb;*/
+	background: url(images/mainbg.jpg) no-repeat center 0px;
+	margin: 10px 10px 10px 10px;
+	padding: 0px 0px 0px 0px;
+}
+
+/* ссылки */
+
+a
+{
+	color: #094ea3;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #a5794f;
+	text-decoration: underline;
+}
+
+/* Цвета */
+
+.color_dark
+{
+	color: #505050;
+}
+
+.color_blue
+{
+	color: #094ea3;
+}
+
+.color_yellow
+{
+	color: #a5794f;
+}
+
+/* Стили строк в гридах */
+
+.item_row
+{
+	background-color: #F7F6F3;
+	color: #333333;
+}
+
+.item_row_alt
+{
+	background-color: White;
+	color: #333333;
+}
+
+/* Шрифты */
+
+.font_standart
+{
+	font-size: 12px;
+}
+
+.font_caption
+{
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.font_small
+{
+	font-weight: bold;
+	font-size: 10px;
+}
+
+.font_kursive
+{
+	font-style: italic;	
+}
+
+.font_large_caption
+{
+	font-weight: bold;
+	font-size: 16px;
+}
+
+/* фото пользователей */
+
+.user_img
+{
+	border: #ccc 1px solid;
+}
+
+/* Смещение картинки на 2 пикселя вниз */
+
+.img_16_caption
+{
+	padding-right: 2px;
+	position: relative;
+	top: +2px;
+}
+
+/* Отступы */
+
+.padding5
+{
+	padding: 5px;
+}
+
+.padding10
+{
+	padding: 10px;
+}
+
+.padding_tab10
+{
+	padding: 0px 0px 0px 10px;
+}
+
+/* Шапка страницы */
+
+.logo
+{
+	padding: 10px 10px 10px 10px;
+	background: url(images/logo.gif) no-repeat center center;
+}
+
+.main_menu_padding
+{
+	padding-top: 115px;
+	padding-left: 60px;
+}
+
+/* Разметка основной таблицы */
+
+.width_left_place
+{
+	width: 300px;
+}
+
+.width_right_place
+{
+	width: 200px;
+}
+
+.center_place_separate
+{
+	padding: 0px 10px 0px 10px;
+}
+
+/* Меню пользователя usermenu*/
+
+.usermenu_top_background
+{
+	background: url(images/usermenu_top_bg.jpg) repeat-x top;
+}
+
+.usermenu_top_left
+{
+	background: url(images/usermenu_top_left.jpg) no-repeat left top;
+}
+
+.usermenu_top_right
+{
+	background: url(images/usermenu_top_right.jpg) no-repeat right top;
+}
+
+.usermenu_bottom_bg
+{
+	background: url(images/usermenu_bottom_bg.jpg) repeat-x top;
+}
+
+.usermenu_bottom_left
+{
+	background: url(images/usermenu_bottom_left.jpg) no-repeat left top;
+}
+
+.usermenu_bottom_right
+{
+	background: url(images/usermenu_bottom_right.jpg) no-repeat right top;
+}
+
+.usermenu_caption_place
+{
+	border-bottom: #ccc 1px solid;
+	padding: 5px 12px 1px 12px;
+}
+
+.usermenu_caption
+{
+	position: relative;
+	left: 10px;
+	top: -6px;
+}
+
+.usermenu_workspace
+{
+	border-left: #ccc 1px solid;
+	border-right: #ccc 1px solid;
+	padding: 10px 10px 10px 10px;
+}
+
+.usermenu_list
+{
+	margin: 0;
+	padding: 3px 0px 3px 5px;
+}
+
+.usermenu_admin_list
+{
+	/* list-style-type: circle; */
+	list-style-image: url(images/arrow-right.png);
+	margin: 0;
+	padding: 7px 0px 0px 25px;
+	line-height: 17px;
+}
+
+/* Меню ссылок linkmenu */
+
+.linkmenu_table
+{
+	margin-top: 10px; /*отступ от верхней менюшки*/
+	border: #ccc 1px solid;
+}
+
+.linkmenu_separator
+{
+	border-top: #ccc 1px solid; 	
+}
+
+.linkmenu_caption_cell
+{
+	padding: 3px 5px 0px 10px;
+}
+
+.linkmenu_caption
+{
+	position: relative;
+	left: 5px;
+	top: -4px;
+}
+
+.linkmenu_list
+{
+	list-style-type: circle; /*list-style-image: url(images/arrow-right.gif);*/
+	margin: 0;
+	padding: 0px 5px 5px 40px;
+	line-height: 20px;
+}
+
+/* Сообщения */
+
+.msgmenu_top_background
+{
+	background: url(images/msgmenu_top_bg.jpg) repeat-x bottom;
+}
+
+.msgmenu_top_left
+{
+	background: url(images/msgmenu_top_left.jpg) no-repeat left bottom;
+}
+
+.msgmenu_top_right
+{
+	background: url(images/msgmenu_top_right.jpg) no-repeat right bottom;
+}
+
+.msgmenu_bottom_background
+{
+	background: url(images/msgmenu_bottom_bg.jpg) repeat-x top;
+}
+
+.msgmenu_bottom_left
+{
+	background: url(images/msgmenu_bottom_left.jpg) no-repeat left top;
+}
+
+.msgmenu_bottom_right
+{
+	background: url(images/msgmenu_bottom_right.jpg) no-repeat right top;
+}
+
+.msgmenu_corner_1
+{
+	background: url(images/msgmenu_corner_1.jpg) no-repeat right top;
+}
+
+.msgmenu_corner_2
+{
+	background: url(images/msgmenu_corner_2.jpg) no-repeat right top;
+}
+
+.msgmenu_workspace
+{
+	border-left: #ccc 1px solid;
+	border-right: #ccc 1px solid;
+	padding: 5px 15px 5px 15px;
+	line-height: 20px;
+	text-indent: 20px;	
+}
+
+.msgmenu_img_important
+{	
+	position: relative;
+	top: -2px;
+	left: -15px;
+}
+
+.msgmenu_img_news
+{		
+	position: relative;
+	left: -15px;
+	top: 0px;
+}
+
+.msgmenu_title_news
+{	
+	text-indent: 0px;
+	text-indent: -10px;	
+	position: relative;
+	top: -7px;
+}
+
+.msgmenu_time_news
+{	
+	position: relative;
+	left: 47px;
+	top: -7px;
+}
+
+/* Добавление сообщения */
+
+.msgadd_important_comment
+{	
+	position: relative;
+	top: -13px;	
+}
+
+
+/* Праздники */
+
+.happy_caption
+{
+	padding-top: 0px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+.happy_table
+{
+	padding: 10px 2px 10px 2px;
+}
+
+.happy_table_text
+{
+	padding: 2px 2px 5px 2px;
+	text-align: right;
+	vertical-align: bottom;
+	line-height: 12px;
+}
+
+.happy_table_user
+{
+	padding: 2px 2px 2px 2px;
+	vertical-align: bottom;
+}
+
+.happy_table_img
+{
+	background: url(images/happy.jpg) no-repeat left top;
+}
+
+/* Табы */
+
+.tab_left
+{
+	background: url(images/tabs_left.jpg) no-repeat left bottom;
+}
+
+.tab_downline
+{
+	background: url(images/tabs_downline.jpg) repeat-x bottom;
+}
+
+.tab_right
+{
+	background: url(images/tabs_right.jpg) no-repeat right bottom;
+}
+
+.tab_unactive_left
+{
+	background: url(images/tabs_unactive_left.jpg) no-repeat left bottom;
+}
+
+.tab_unactive_fon
+{
+	background: url(images/tabs_unactive_fon.jpg) repeat-x bottom;
+}
+
+.tab_unactive_right
+{
+	background: url(images/tabs_unactive_right.jpg) no-repeat right bottom;
+}
+
+.tab_active_left
+{
+	background: url(images/tabs_active_left.jpg) no-repeat left bottom;
+}
+
+.tab_active_fon
+{
+	background: url(images/tabs_active_fon.jpg) repeat-x bottom;
+}
+
+.tab_active_right
+{
+	background: url(images/tabs_active_right.jpg) no-repeat right bottom;
+}
+
+.tab_padding_text
+{
+	position: relative;
+	top: +2px;
+}
+
+/* переменный фоновые полосы в таблицах */
+
+.GridRow_AltRow
+{
+    background-color: #F7F6F3;
+    color: #333333;
+}
+
+.GridRow_Row
+{
+    background-color: White;
+    color: #333333;
+}
+
+/* документы */
+
+.width_left_place_doc
+{
+	width: 400px;
+}
+
+.center_place_separate_doc
+{
+	padding: 0px 10px 0px 10px;
+}

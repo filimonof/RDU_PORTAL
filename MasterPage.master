@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage_TreePlace.master.cs"
+    Inherits="MasterPage_TreePlace" %>
+
+<%@ Register Src="~/controls/Header.ascx" TagName="Header" TagPrefix="vit" %>
+<%@ Register Src="~/controls/Fotter.ascx" TagName="Fotter" TagPrefix="vit" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>МоРДУ</title>
+    <%--  плавная смена страниц  
+    <meta http-equiv="Page-Enter" content="progid:DXImageTransform.Microsoft.Fade(duration=.5)" />
+    <meta http-equiv="Page-Exit" content="progid:DXImageTransform.Microsoft.Fade(duration=.5)" />
+    --%>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link id="maincss" href="main.css" type="text/css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form_main" runat="server">
+    <div>    
+        <asp:ScriptManager ID="ScriptManager1" runat="server" />
+        <!-- 
+        Шапка
+        -->
+        <vit:Header ID="Header1" runat="server" />
+        <!-- 
+        Основная область 
+        -->
+        <asp:UpdatePanel ID="UpdatePanelMaster" runat="server">
+            <ContentTemplate>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolderWorkspace" runat="server" />
+            </ContentTemplate>
+        </asp:UpdatePanel>
+        <!-- 
+        Нижнее поле
+        -->
+        <vit:Fotter ID="Fotter1" runat="server" />
+    </div>
+    </form>
+</body>
+</html>

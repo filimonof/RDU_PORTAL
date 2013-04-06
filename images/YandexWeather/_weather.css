@@ -1,0 +1,581 @@
+.date, .dawn-dark, th
+{
+	padding: 0;
+	text-align: left;
+	vertical-align: top;
+	border-collapse: collapse;
+}
+.t-60, .t-60 td, .t-60 i
+{
+	background-color: #519FDD;
+	left: 0;
+}
+.t-58, .t-58 td, .t-58 i
+{
+	background-color: #56A2DD;
+	left: 1px;
+}
+.t-56, .t-56 td, .t-56 i
+{
+	background-color: #5BA5DE;
+	left: 3px;
+}
+.t-54, .t-54 td, .t-54 i
+{
+	background-color: #60A7DE;
+	left: 4px;
+}
+.t-52, .t-52 td, .t-52 i
+{
+	background-color: #66AADF;
+	left: 5px;
+}
+.t-50, .t-50 td, .t-50 i
+{
+	background-color: #6BADE0;
+	left: 7px;
+}
+.t-48, .t-48 td, .t-48 i
+{
+	background-color: #70AFE0;
+	left: 8px;
+}
+.t-46, .t-46 td, .t-46 i
+{
+	background-color: #76B2E1;
+	left: 9px;
+}
+.t-44, .t-44 td, .t-44 i
+{
+	background-color: #7BB5E2;
+	left: 11px;
+}
+.t-42, .t-42 td, .t-42 i
+{
+	background-color: #80B7E2;
+	left: 12px;
+}
+.t-40, .t-40 td, .t-40 i
+{
+	background-color: #86BAE3;
+	left: 13px;
+}
+.t-38, .t-38 td, .t-38 i
+{
+	background-color: #8BBDE3;
+	left: 15px;
+}
+.t-36, .t-36 td, .t-36 i
+{
+	background-color: #90BFE4;
+	left: 16px;
+}
+.t-34, .t-34 td, .t-34 i
+{
+	background-color: #95C2E5;
+	left: 17px;
+}
+.t-32, .t-32 td, .t-32 i
+{
+	background-color: #9BC5E5;
+	left: 19px;
+}
+.t-30, .t-30 td, .t-30 i
+{
+	background-color: #A0C7E6;
+	left: 20px;
+}
+.t-28, .t-28 td, .t-28 i
+{
+	background-color: #A0C7E6;
+	left: 21px;
+}
+.t-26, .t-26 td, .t-26 i
+{
+	background-color: #ABCDE7;
+	left: 23px;
+}
+.t-24, .t-24 td, .t-24 i
+{
+	background-color: #B0CFE8;
+	left: 24px;
+}
+.t-22, .t-22 td, .t-22 i
+{
+	background-color: #B5D2E9;
+	left: 25px;
+}
+.t-20, .t-20 td, .t-20 i
+{
+	background-color: #BBD5E9;
+	left: 27px;
+}
+.t-18, .t-18 td, .t-18 i
+{
+	background-color: #C0D7EA;
+	left: 28px;
+}
+.t-16, .t-16 td, .t-16 i
+{
+	background-color: #C5DAEA;
+	left: 29px;
+}
+.t-14, .t-14 td, .t-14 i
+{
+	background-color: #CADDEB;
+	left: 31px;
+}
+.t-12, .t-12 td, .t-12 i
+{
+	background-color: #D0DFEC;
+	left: 32px;
+}
+.t-10, .t-10 td, .t-10 i
+{
+	background-color: #D5E2EC;
+	left: 33px;
+}
+.t-8, .t-8 td, .t-8 i
+{
+	background-color: #DAE5ED;
+	left: 35px;
+}
+.t-6, .t-6 td, .t-6 i
+{
+	background-color: #E0E7EE;
+	left: 36px;
+}
+.t-4, .t-4 td, .t-4 i
+{
+	background-color: #E5EAEE;
+	left: 37px;
+}
+.t-2, .t-2 td, .t-2 i
+{
+	background-color: #EAEDEF;
+	left: 39px;
+}
+.t0, .t0 td, .t0 i
+{
+	background-color: #F0EFF0;
+	left: 40px;
+}
+.t2, .t2 td, .t2 i
+{
+	background-color: #F0F0EC;
+	left: 41px;
+}
+.t4, .t4 td, .t4 i
+{
+	background-color: #F1F0E9;
+	left: 43px;
+}
+.t6, .t6 td, .t6 i
+{
+	background-color: #F2F0E6;
+	left: 44px;
+}
+.t8, .t8 td, .t8 i
+{
+	background-color: #F3F1E3;
+	left: 45px;
+}
+.t10, .t10 td, .t10 i
+{
+	background-color: #F4F1E0;
+	left: 47px;
+}
+.t12, .t12 td, .t12 i
+{
+	background-color: #F5F2DC;
+	left: 48px;
+}
+.t14, .t14 td, .t14 i
+{
+	background-color: #F5F2D9;
+	left: 49px;
+}
+.t16, .t16 td, .t16 i
+{
+	background-color: #F6F3D6;
+	left: 51px;
+}
+.t18, .t18 td, .t18 i
+{
+	background-color: #F7F3D3;
+	left: 52px;
+}
+.t20, .t20 td, .t20 i
+{
+	background-color: #F8F4D0;
+	left: 53px;
+}
+.t22, .t22 td, .t22 i
+{
+	background-color: #F8F1C8;
+	left: 55px;
+}
+.t24, .t24 td, .t24 i
+{
+	background-color: #F9EEC0;
+	left: 56px;
+}
+.t26, .t26 td, .t26 i
+{
+	background-color: #F9EBB9;
+	left: 57px;
+}
+.t28, .t28 td, .t28 i
+{
+	background-color: #F9E8B1;
+	left: 59px;
+}
+.t30, .t30 td, .t30 i
+{
+	background-color: #FAE5AA;
+	left: 60px;
+}
+.t32, .t32 td, .t32 i
+{
+	background-color: #FAE3A3;
+	left: 61px;
+}
+.t34, .t34 td, .t34 i
+{
+	background-color: #FAE09C;
+	left: 63px;
+}
+.t36, .t36 td, .t36 i
+{
+	background-color: #FBDE96;
+	left: 64px;
+}
+.t38, .t38 td, .t38 i
+{
+	background-color: #FBDB8F;
+	left: 65px;
+}
+.t40, .t40 td, .t40 i
+{
+	background-color: #FBD988;
+	left: 67px;
+}
+.t42, .t42 td, .t42 i
+{
+	background-color: #FCD682;
+	left: 68px;
+}
+.t44, .t44 td, .t44 i
+{
+	background-color: #FCD47B;
+	left: 69px;
+}
+.t46, .t46 td, .t46 i
+{
+	background-color: #FCD174;
+	left: 71px;
+}
+.t48, .t48 td, .t48 i
+{
+	background-color: #FDCF6E;
+	left: 72px;
+}
+.t50, .t50 td, .t50 i
+{
+	background-color: #FDCC67;
+	left: 73px;
+}
+.t52, .t52 td, .t52 i
+{
+	background-color: #FDCA60;
+	left: 75px;
+}
+.t54, .t54 td, .t54 i
+{
+	background-color: #FEC759;
+	left: 76px;
+}
+.t56, .t56 td, .t56 i
+{
+	background-color: #FEC553;
+	left: 77px;
+}
+.t58, .t58 td, .t58 i
+{
+	background-color: #FEC24C;
+	left: 79px;
+}
+.t60, .t60 td, .t60 i
+{
+	background-color: #FFC045;
+	left: 80px;
+}
+.b-forecast-brief th
+{
+	font-size: 100%;
+	font-weight: normal;
+}
+.b-forecast-brief th .today, .b-forecast-brief th b
+{
+	font-size: 190%;
+	display: block;
+	margin: 0;
+}
+.b-forecast-brief .today b, .b-forecast-brief .today i
+{
+	font-size: 80%;
+}
+.b-forecast-brief .today b
+{
+	display: none;
+}
+.b-forecast-brief .gap
+{
+	width: 0 !important;
+	padding: 0;
+}
+.b-forecast-brief .gap div
+{
+	width: 1em;
+}
+.b-forecast-brief th.weekend
+{
+	color: #f30;
+}
+.b-forecast-brief td
+{
+	font-size: 85%;
+	width: 10% !important;
+	padding: 1em .5em 0 .8em;
+}
+.b-forecast-brief-9 td
+{
+	width: 11.11% !important;
+}
+.b-forecast-brief-8 td
+{
+	width: 12.5% !important;
+}
+.b-forecast-brief-7 td
+{
+	width: 14.27% !important;
+}
+.b-forecast-brief-6 td
+{
+	width: 16.66% !important;
+}
+.b-forecast-brief-5 td
+{
+	width: 20% !important;
+}
+.b-forecast-brief-4 td
+{
+	width: 25% !important;
+}
+.b-forecast-brief-3 td
+{
+	width: 33.33% !important;
+}
+.b-forecast-brief-2 td
+{
+	width: 50% !important;
+}
+.b-forecast-brief-1 td
+{
+	width: 100% !important;
+}
+.b-forecast-brief td img
+{
+	display: block;
+}
+.b-forecast-brief .data .b-wea-icon
+{
+	display: block;
+	float: none;
+	margin-bottom: .6em;
+}
+.b-forecast-brief td
+{
+	padding: .7em 0 .1em .8em;
+}
+.b-forecast-brief .day td, .b-forecast-brief .night td
+{
+	white-space: nowrap;
+}
+.b-forecast-brief td b
+{
+	font-size: 165%;
+	display: block;
+	margin: 0;
+}
+.b-forecast-brief .night td
+{
+	font-size: 95%;
+	padding: .2em 0 .6em .8em;
+	color: #666;
+}
+.b-forecast-details
+{
+	margin: 0 0 0 2%;
+}
+.b-forecast-details th
+{
+	font-weight: normal;
+	padding: 0 .3em .3em 0;
+}
+.b-forecast-details th i
+{
+	font-size: 150%;
+	line-height: .8em;
+	background: none;
+}
+.b-forecast-details .weekend th
+{
+	color: #f30;
+}
+.b-forecast-details .weekend th i
+{
+	color: #f64;
+}
+.b-forecast-details th b
+{
+	font-size: 380%;
+	font-weight: normal;
+	position: static;
+	line-height: .9em;
+}
+.b-forecast-details th span
+{
+	font-size: 130%;
+	display: block;
+}
+.b-forecast-details td
+{
+	padding: .55em .5em .3em .5em;
+}
+.b-forecast-details th, .b-forecast-details .dawn-dark
+{
+	background: #fff;
+}
+.b-forecast-details .header th
+{
+	font-size: 100%;
+	font-weight: normal;
+	padding: .85em 0 .2em .5em;
+}
+.b-forecast-details .header th.wind
+{
+	padding-left: 18px;
+}
+.b-forecast-details .dawn-dark, .b-forecast-details .near .dawn-dark
+{
+	padding: 0 .8em .3em 1em;
+}
+.b-forecast-details td dl
+{
+	padding: 0 0 .25em .5em;
+}
+.b-forecast-details td dt, .b-forecast-details td dd
+{
+	font-family: Verdana,sans-serif;
+	font-size: 85%;
+}
+.b-forecast-details td dt
+{
+	padding-top: .1em;
+	line-height: 1.2em;
+}
+.b-forecast-details td dd
+{
+	margin-bottom: .4em;
+}
+.b-forecast-details .near td
+{
+	padding-top: 1em;
+}
+.b-forecast-details .near td.t
+{
+	padding-top: 0;
+	padding-left: .7em;
+}
+.b-forecast-details td.t
+{
+	padding-top: .65em;
+}
+.b-forecast-details td.t strong
+{
+	font-family: Verdana,sans-serif;
+	font-size: 85%;
+	font-weight: normal;
+	display: block;
+	line-height: 1.3em;
+	color: #666;
+}
+.b-forecast-details td.t span
+{
+	font-size: 150%;
+	white-space: nowrap;
+}
+.b-forecast-details .b-wea-icon
+{
+	position: relative;
+	top: 1px;
+	left: auto;
+}
+.b-forecast-details td.data
+{
+	width: 10.3em;
+	line-height: 1.25em;
+}
+.b-forecast-details td.wind
+{
+	padding-left: 7px;
+	vertical-align: top;
+}
+.b-forecast-details td.wind img
+{
+	position: relative;
+	top: -5px;
+	vertical-align: top;
+}
+.b-forecast-details td.moisture
+{
+	padding-right: .8em;
+	padding-left: 0;
+	text-align: right;
+}
+.b-forecast-details td.addon
+{
+	width: 13em;
+	padding-left: 1.3em;
+	background: #fff;
+}
+.b-forecast-details td.addon p
+{
+	margin-bottom: .5em;
+}
+
+.last
+{
+	padding-right: 0;
+}
+.b-gale
+{
+	margin-left: -13px;
+}
+
+.icon
+{
+}
+.pressure
+{
+}
+.wind-icon
+{
+}
+.g-png
+{
+}
+.date
+{		
+}
