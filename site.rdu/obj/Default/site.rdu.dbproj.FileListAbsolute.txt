@@ -6,3 +6,11 @@ d:\project\ASP.NET\rdurm2\site.rdu\sql\site.rdu_Database.sqlcmdvars
 d:\project\ASP.NET\rdurm2\site.rdu\sql\site.rdu.deploymanifest
 d:\project\ASP.NET\rdurm2\site.rdu\sql\site.rdu.dbschema
 d:\project\ASP.NET\rdurm2\site.rdu\obj\Default\site.rdu.dbschema
+d:\project\ASP.NET\rdurm2\GitHub\RDU_2010\site.rdu\sql\site.rdu_Script.PreDeployment.sql
+d:\project\ASP.NET\rdurm2\GitHub\RDU_2010\site.rdu\sql\site.rdu_Script.PostDeployment.sql
+d:\project\ASP.NET\rdurm2\GitHub\RDU_2010\site.rdu\sql\site.rdu_Database.sqlsettings
+d:\project\ASP.NET\rdurm2\GitHub\RDU_2010\site.rdu\sql\site.rdu_Database.sqldeployment
+d:\project\ASP.NET\rdurm2\GitHub\RDU_2010\site.rdu\sql\site.rdu_Database.sqlcmdvars
+d:\project\ASP.NET\rdurm2\GitHub\RDU_2010\site.rdu\sql\site.rdu.deploymanifest
+d:\project\ASP.NET\rdurm2\GitHub\RDU_2010\site.rdu\sql\site.rdu.dbschema
+d:\project\ASP.NET\rdurm2\GitHub\RDU_2010\site.rdu\obj\Default\site.rdu.dbschema

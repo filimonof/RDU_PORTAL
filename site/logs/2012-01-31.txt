@@ -1,0 +1,23 @@
+10:37  Error                                              AdoUtils.ExecuteCommand -> Ошибка при выполнении запроса 
+ INSERT INTO [Log] ([Date], [Type], [User], [IP], [Message]) VALUES (@Date, @Type, @User, @IP, @Message)  
+ Cannot open database "site.rdu" requested by the login. The login failed.
+Login failed for user 'ODUSV\FilimonovVV'.
+10:37  Info                                               Application Start
+10:37  Error       ODUSV\FilimonovVV     127.0.0.1        AdoUtils.ExecuteCommand -> Ошибка при выполнении запроса 
+ INSERT INTO [Log] ([Date], [Type], [User], [IP], [Message]) VALUES (@Date, @Type, @User, @IP, @Message)  
+ Cannot open database "site.rdu" requested by the login. The login failed.
+Login failed for user 'ODUSV\FilimonovVV'.
+10:37  Error       ODUSV\FilimonovVV     127.0.0.1        Application Error : 
+  AdoUtils.CreateSqlDataReader -> Ошибка при выполнении запроса 
+ SELECT TOP 1 [ID], [Enabled] FROM [User] WHERE [DomainName] = @DomainName 
+ Cannot open database "site.rdu" requested by the login. The login failed.
+Login failed for user 'ODUSV\FilimonovVV'.
+10:38  Error       ODUSV\FilimonovVV     127.0.0.1        AdoUtils.ExecuteCommand -> Ошибка при выполнении запроса 
+ INSERT INTO [Log] ([Date], [Type], [User], [IP], [Message]) VALUES (@Date, @Type, @User, @IP, @Message)  
+ Cannot open database "site.rdu" requested by the login. The login failed.
+Login failed for user 'ODUSV\FilimonovVV'.
+10:38  Error       ODUSV\FilimonovVV     127.0.0.1        Application Error : 
+  AdoUtils.CreateSqlDataReader -> Ошибка при выполнении запроса 
+ SELECT TOP 1 [ID], [Enabled] FROM [User] WHERE [DomainName] = @DomainName 
+ Cannot open database "site.rdu" requested by the login. The login failed.
+Login failed for user 'ODUSV\FilimonovVV'.

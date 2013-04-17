@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "site", "site\", "{95BBE85C-B208-42EE-B68F-2AAB25ACF43D}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/site"
+		Debug.AspNetCompiler.PhysicalPath = "D:\project\ASP.NET\rdurm2\site\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\site\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/site"
+		Release.AspNetCompiler.PhysicalPath = "D:\project\ASP.NET\rdurm2\site\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\site\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "9710"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{C8D11400-126E-41CD-887F-60BD40844F9E}") = "site.rdu", "site.rdu\site.rdu.dbproj", "{B7776F22-4849-4228-B1DF-D7FD809C2FF6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Default|.NET = Default|.NET
+		Default|Any CPU = Default|Any CPU
+		Default|Mixed Platforms = Default|Mixed Platforms
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95BBE85C-B208-42EE-B68F-2AAB25ACF43D}.Debug|.NET.ActiveCfg = Debug|.NET
+		{95BBE85C-B208-42EE-B68F-2AAB25ACF43D}.Debug|.NET.Build.0 = Debug|.NET
+		{95BBE85C-B208-42EE-B68F-2AAB25ACF43D}.Debug|Any CPU.ActiveCfg = Debug|.NET
+		{95BBE85C-B208-42EE-B68F-2AAB25ACF43D}.Debug|Mixed Platforms.ActiveCfg = Debug|.NET
+		{95BBE85C-B208-42EE-B68F-2AAB25ACF43D}.Debug|Mixed Platforms.Build.0 = Debug|.NET
+		{95BBE85C-B208-42EE-B68F-2AAB25ACF43D}.Default|.NET.ActiveCfg = Debug|.NET
+		{95BBE85C-B208-42EE-B68F-2AAB25ACF43D}.Default|.NET.Build.0 = Debug|.NET
+		{95BBE85C-B208-42EE-B68F-2AAB25ACF43D}.Default|Any CPU.ActiveCfg = Debug|.NET
+		{95BBE85C-B208-42EE-B68F-2AAB25ACF43D}.Default|Mixed Platforms.ActiveCfg = Debug|.NET
+		{95BBE85C-B208-42EE-B68F-2AAB25ACF43D}.Default|Mixed Platforms.Build.0 = Debug|.NET
+		{B7776F22-4849-4228-B1DF-D7FD809C2FF6}.Debug|.NET.ActiveCfg = Default|Any CPU
+		{B7776F22-4849-4228-B1DF-D7FD809C2FF6}.Debug|Any CPU.ActiveCfg = Default|Any CPU
+		{B7776F22-4849-4228-B1DF-D7FD809C2FF6}.Debug|Any CPU.Build.0 = Default|Any CPU
+		{B7776F22-4849-4228-B1DF-D7FD809C2FF6}.Debug|Any CPU.Deploy.0 = Default|Any CPU
+		{B7776F22-4849-4228-B1DF-D7FD809C2FF6}.Debug|Mixed Platforms.ActiveCfg = Default|Any CPU
+		{B7776F22-4849-4228-B1DF-D7FD809C2FF6}.Debug|Mixed Platforms.Build.0 = Default|Any CPU
+		{B7776F22-4849-4228-B1DF-D7FD809C2FF6}.Debug|Mixed Platforms.Deploy.0 = Default|Any CPU
+		{B7776F22-4849-4228-B1DF-D7FD809C2FF6}.Default|.NET.ActiveCfg = Default|Any CPU
+		{B7776F22-4849-4228-B1DF-D7FD809C2FF6}.Default|Any CPU.ActiveCfg = Default|Any CPU
+		{B7776F22-4849-4228-B1DF-D7FD809C2FF6}.Default|Any CPU.Build.0 = Default|Any CPU
+		{B7776F22-4849-4228-B1DF-D7FD809C2FF6}.Default|Any CPU.Deploy.0 = Default|Any CPU
+		{B7776F22-4849-4228-B1DF-D7FD809C2FF6}.Default|Mixed Platforms.ActiveCfg = Default|Any CPU
+		{B7776F22-4849-4228-B1DF-D7FD809C2FF6}.Default|Mixed Platforms.Build.0 = Default|Any CPU
+		{B7776F22-4849-4228-B1DF-D7FD809C2FF6}.Default|Mixed Platforms.Deploy.0 = Default|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

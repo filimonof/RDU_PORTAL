@@ -1,0 +1,3 @@
+﻿<asp:Menu runat="server" Orientation="Horizontal">         
+     <StaticMenuItemStyle HorizontalPadding="10px"   />     
+</asp:Menu>

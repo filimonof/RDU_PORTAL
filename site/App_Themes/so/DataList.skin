@@ -1,0 +1,7 @@
+﻿<%--
+<asp:DataList runat="server" >
+    <AlternatingItemStyle BackColor="White" ForeColor="#094ea3" />
+    <ItemStyle BackColor="#F7F6F3" ForeColor="#333333"  />
+    <EditItemStyle  BackColor="#C0C0C0" />
+</asp:DataList>
+--%>

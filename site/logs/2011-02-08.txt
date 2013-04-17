@@ -1,0 +1,65 @@
+09:25  Info                                               Application Start
+09:27  Error       ODUSV\FilimonovVV     127.0.0.1        Application Error : 
+  StartIndex cannot be less than zero.
+Parameter name: startIndex 
+ stack track : 
+    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.news_aspx.ProcessRequest(HttpContext context) in c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\site\a7825c1f\92033c51\App_Web_rcvxofrx.2.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+09:28  Error       ODUSV\FilimonovVV     127.0.0.1        Application Error : 
+  StartIndex cannot be less than zero.
+Parameter name: startIndex 
+ stack track : 
+    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.news_aspx.ProcessRequest(HttpContext context) in c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\site\a7825c1f\92033c51\App_Web_rcvxofrx.2.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+09:30  Info                                               Application Start
+09:33  Error       ODUSV\FilimonovVV     127.0.0.1        Application Error : 
+  Length cannot be less than zero.
+Parameter name: length 
+ stack track : 
+    at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.news_aspx.ProcessRequest(HttpContext context) in c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\site\a7825c1f\92033c51\App_Web_s3kh7avu.4.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+09:51  Info                                               Application Start
+09:53  Error       ODUSV\FilimonovVV     127.0.0.1        Application Error : 
+  Invalid viewstate. 
+	Client IP: 127.0.0.1
+	Port: 
+	User-Agent: Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.2.15 Version/10.10
+	ViewState: rG0KeV2bqCL85KwO0Su3rw7/FNeo1AsuADvilsZeiGAOSjfxKphrHu3s+A2tZkgte7f6V2Rjq2WmshGIAK9G83C47oddtIlBAfrT73NQZTvIE6ZNoXrrGBn/hHryOm8kLgra7Rim2+Kzd5vaLHjQyAVHiz5HwGS6Wa2eWAgtfrgrfsI5sOKP0mTZ5bN46TWEVRofNNVrNCaROpHFteYH1H5OmCzftapv6ijJdU6CoZSPA8PKTekoH+DoXnuhBD4zTRR7fBcJhT6Hs8XHcrKPJ7b1c9w1Nxd6z/QNzldcqPw6QXhWlpXSCb46XxcQs7RFwgOwIZMrBjqQbPGuWFEuUs8OodRFfj2ULbr4Bej7PINYSfiZx65aFRql8Cpha3qkwcwIcBrbEUkcgNRhrY5EmTzciiwpde7cvvrr+D3Vin0JBo/BXYqudGhLdA7fM78Ki8JRitwwV6D0hULs5fDC7m2V8yqHwAtTGmPfjHItuOvLs4P2zlOf0++heZpWcRTlQi6qH+OuhCA/M5crD2y2M8tJyzvgouOCj1a95VbhBmqbQ0G2nQD5QnW9Hcpxf7PiyfeytD5ciKMuhusZ6heGNLMi3ydPkdgK3JzbDALAE61q3wYoVEGGZOtbJ44odxBs2h2BCH6qF0TMefsEY+bOLaZuDUAda8yo8rVPrcENkQuS/0fet4MDKnyZaloJXBcW06wCqEXCEYyqsicoyUbr62/raeIKgUA5R4J8DSJxGWHfCV4bHMSqNr8WYQsSi/PoE8ji2It5b24DsFG9C41oAkdVcBFSqeAWhV4V5Fw9jXFmczTa+5LrduOaSExhbBPv1Nu9duzEY/yWb5EKOWflSjzfWRd/7ttJAdzP9SZiEK7eyYY3jokukIpjmWEBol5YMe... 
+ stack track : 
+    at System.Web.UI.ViewStateException.ThrowError(Exception inner, String persistedState, String errorPageMessage, Boolean macValidationError)
+   at System.Web.UI.HiddenFieldPageStatePersister.Load()
+   at System.Web.UI.Page.LoadPageStateFromPersistenceMedium()
+   at System.Web.UI.Page.LoadAllState()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.news_aspx.ProcessRequest(HttpContext context) in c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\site\a7825c1f\92033c51\App_Web_pu4y1vmq.4.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+09:53  Error       ODUSV\FilimonovVV     127.0.0.1        TypeNews.DownloadNews -> Ошибка в загрузке новостей 
+ TypeNews.ParseWeatherYandex1 -> Ошибка в парсинге погоды Яндекса 1 
+ Length cannot be less than zero.
+Parameter name: length

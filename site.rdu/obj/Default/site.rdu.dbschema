@@ -2327,7 +2327,6 @@ END]]></Value>
 			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="74" />
 		</Element>
 		<Element Type="ISql90Procedure" Name="[dbo].[DocumentFolder_Add]">
-			<Property Name="IsAnsiNullsOn" Value="True" />
 			<Property Name="BodyScript">
 				<Value><![CDATA[
 BEGIN
@@ -2349,6 +2348,7 @@ BEGIN
 	RETURN @NewID;
 END;]]></Value>
 			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
 			<Relationship Name="BodyDependencies">
 				<Entry>
 					<References ExternalSource="BuiltIns" Name="[int]" />
@@ -3223,8 +3223,8 @@ END
 			<AttachedAnnotation Disambiguator="67" />
 		</Element>
 		<Element Type="ISql90MultiStatementTableValuedFunction" Name="[dbo].[HolidayAndBirthday]">
-			<Property Name="IsAnsiNullsOn" Value="True" />
 			<Property Name="ReturnTableVariable" Value="@returntable" />
+			<Property Name="IsAnsiNullsOn" Value="True" />
 			<Relationship Name="BodyDependencies">
 				<Entry>
 					<References Name="[dbo].[HolidayAndBirthday].[@min_birthday]" />
@@ -3558,7 +3558,6 @@ END]]></Value>
 			</Relationship>
 		</Element>
 		<Element Type="ISql90Procedure" Name="[dbo].[IsAccess]">
-			<Property Name="IsAnsiNullsOn" Value="True" />
 			<Property Name="BodyScript">
 				<Value><![CDATA[
 BEGIN	
@@ -3578,6 +3577,7 @@ output:
 		return 0
 END;]]></Value>
 			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
 			<Relationship Name="BodyDependencies">
 				<Entry>
 					<References Name="[dbo].[Rule_To_RuleGroup]" />
@@ -4668,7 +4668,6 @@ END;]]></Value>
 			</Relationship>
 		</Element>
 		<Element Type="ISql90Procedure" Name="[dbo].[SelectContact]">
-			<Property Name="IsAnsiNullsOn" Value="True" />
 			<Property Name="BodyScript">
 				<Value><![CDATA[
 BEGIN
@@ -4723,6 +4722,7 @@ BEGIN
 		
 END]]></Value>
 			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
 			<Relationship Name="BodyDependencies">
 				<Entry>
 					<References ExternalSource="BuiltIns" Name="[nvarchar]" />
@@ -5095,12 +5095,12 @@ END]]></Value>
 			<AttachedAnnotation Disambiguator="83" />
 		</Element>
 		<Element Type="ISql90View" Name="[dbo].[vwContactUniqueUser]">
-			<Property Name="IsAnsiNullsOn" Value="True" />
 			<Property Name="IsSchemaBound" Value="True" />
 			<Property Name="QueryScript">
 				<Value><![CDATA[ 
 	SELECT [UserID] FROM [dbo].[Contact] WHERE [UserID] IS NOT NULL]]></Value>
 			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
 			<Relationship Name="Columns">
 				<Entry>
 					<Element Type="ISql90ComputedColumn" Name="[dbo].[vwContactUniqueUser].[UserID]">
@@ -5134,8 +5134,8 @@ END]]></Value>
 			</Annotation>
 		</Element>
 		<Element Type="ISql90Index" Name="[dbo].[vwContactUniqueUser].[IX_UserID]">
-			<Property Name="IsClustered" Value="True" />
 			<Property Name="IsUnique" Value="True" />
+			<Property Name="IsClustered" Value="True" />
 			<Relationship Name="ColumnSpecifications">
 				<Entry>
 					<Element Type="ISqlIndexedColumnSpecification">
